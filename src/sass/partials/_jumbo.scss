@@ -1,0 +1,10 @@
+.jumbotron {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0;
+
+    @media (min-width: 576px) {
+        padding: 7rem 2rem;
+    }
+}

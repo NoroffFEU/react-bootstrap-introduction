@@ -1,0 +1,21 @@
+.btn-dont-buy {
+    background-color: $colour-secondary;
+    color: white;
+    width: 100%;
+    border-radius: 0;
+
+    &:hover {
+        color: $colour-primary;
+    }
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-search {
+    width: 100%;
+    @media (min-width: $medium-width) {
+        width: auto;
+    }
+}

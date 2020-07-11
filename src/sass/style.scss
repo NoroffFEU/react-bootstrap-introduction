@@ -1,0 +1,38 @@
+// custom
+$colour-secondary: #6a6a68;
+$colour-input: #d8c3a5;
+
+$colour-primary: #e85a4f;
+
+$medium-width: 768px;
+
+// bootstrap
+$theme-colors: (
+    "primary": $colour-primary,
+    "dark": $colour-primary,
+);
+
+$input-bg: $colour-input;
+$input-border-color: $colour-input;
+$border-radius: 3px;
+
+$input-placeholder-color: white;
+$input-plaintext-color: white;
+
+$font-family-base: "Merriweather", serif;
+$headings-font-family: "Lato", sans-serif;
+$headings-color: $colour-primary;
+
+$body-bg: #eae7dc;
+$body-color: $colour-secondary;
+
+$card-bg: transparent;
+$card-cap-bg: white;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/form";
+@import "./partials/tabs";
+@import "./partials/typography";
+@import "./partials/accordion";
+@import "./partials/jumbo";
