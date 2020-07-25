@@ -32,7 +32,7 @@ function ContentAccordion() {
                         Dolor
                     </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
+                <Accordion.Collapse eventKey="2">
                     <Card.Body>Hello! I'm another body</Card.Body>
                 </Accordion.Collapse>
             </Card>
